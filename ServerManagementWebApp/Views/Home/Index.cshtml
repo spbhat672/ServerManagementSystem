@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Management WebApp</title>
+    @Styles.Render("~/Content/Styles/HomePage.css")
+</head>
+<body>
+    <div class="header">Server Management WebApp</div>
+    <div class="content">
+        <div class="tabHeader">
+            <button id="AuthenticationButton" class="tabButton" onclick="openTab('AuthenticationSettings'); setButtonColor('AuthenticationButton');" style="background-color:lightskyblue">Authentication</button>
+            <button id="RestServiceButton" class="tabButton" onclick="openTab('RestServiceSettings'); setButtonColor('RestServiceButton');">REST Services</button>
+        </div>
+
+        <div id="AuthenticationSettings" class="tabPage setting">
+            @Html.Partial("~/Views/Home/Authentication/_AuthenticationPage.cshtml")
+        </div>
+
+        <div id="RestServiceSettings" class="tabPage setting" style="display:none">
+            @Html.Partial("~/Views/Home/RestService/_RestServicePage.cshtml")
+        </div>
+    </div>
+    <script>
+        function openTab(setting) {
+            var i;
+            var x = document.getElementsByClassName("setting");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(setting).style.display = "block";
+        };
+
+        function setButtonColor(tabButton) {
+            var j;
+            var y = document.getElementsByClassName("tabButton");
+            for (j = 0; j < y.length; j++) {
+                y[j].style.backgroundColor = "lightblue";
+            }
+            document.getElementById(tabButton).style.backgroundColor = "lightskyblue";
+        }
+    </script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

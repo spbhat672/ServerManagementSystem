@@ -1,0 +1,9 @@
+﻿
+@using (Html.BeginForm())
+{
+    @Styles.Render("~/Content/Styles/RESTservicePage/PageStyles/EventPageStyles/ProcessingPageStyle.css")
+    @Html.AntiForgeryToken()
+<div class="processingPageContent">
+    <textarea cols="30" rows="15" class="r_ev_p_comment_box"></textarea><br />
+</div>
+}

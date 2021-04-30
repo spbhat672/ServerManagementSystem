@@ -1,0 +1,55 @@
+﻿<html>
+<body>
+    @Styles.Render("~/Content/Styles/RESTservicePage/RestServicePageStyle.css")
+    @Html.AntiForgeryToken()
+
+    <div class="restContent">
+        <div class="restTabHeader">
+            <button id="EngineeringButton" class="restTabButton" onclick="openRestTab('EngineeringSettings'); setRestMenuButtonColor('EngineeringButton');" style="background-color:lightskyblue">Engineering</button>
+            <button id="ManufacturingButton" class="restTabButton" onclick="openRestTab('ManufacturingSettings'); setRestMenuButtonColor('ManufacturingButton');">Manufacturing</button>
+            <button id="ExecutionButton" class="restTabButton" onclick="openRestTab('ExecutionSettings'); setRestMenuButtonColor('ExecutionButton');">Execution</button>
+            <button id="ERPButton" class="restTabButton" onclick="openRestTab('ERPSettings'); setRestMenuButtonColor('ERPButton');">ERP</button>
+            <button id="EventsButton" class="restTabButton" onclick="openRestTab('EventsSettings'); setRestMenuButtonColor('EventsButton');">Events</button>
+        </div>
+
+        <div id="EngineeringSettings" class="restTabPage rest_setting">
+            @Html.Partial("~/Views/Home/RestService/Views/_EngineeringPage.cshtml")
+        </div>
+
+        <div id="ManufacturingSettings" class="restTabPage rest_setting" style="display:none">
+            @Html.Partial("~/Views/Home/RestService/Views/_ManufacturingPage.cshtml")
+        </div>
+
+        <div id="ExecutionSettings" class="restTabPage rest_setting" style="display:none">
+            @Html.Partial("~/Views/Home/RestService/Views/_ExecutionPage.cshtml")
+        </div>
+
+        <div id="ERPSettings" class="restTabPage rest_setting" style="display:none">
+            @Html.Partial("~/Views/Home/RestService/Views/_ERPPage.cshtml")
+        </div>
+
+        <div id="EventsSettings" class="restTabPage rest_setting" style="display:none">
+            @Html.Partial("~/Views/Home/RestService/Views/_EventsPage.cshtml")
+        </div>
+    </div>
+    <script>
+        function openRestTab(rest_setting) {
+            var i;
+            var x = document.getElementsByClassName("rest_setting");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(rest_setting).style.display = "block";
+        };
+
+        function setRestMenuButtonColor(restTabButton) {
+            var j;
+            var y = document.getElementsByClassName("restTabButton");
+            for (j = 0; j < y.length; j++) {
+                y[j].style.backgroundColor = "lightblue";
+            }
+            document.getElementById(restTabButton).style.backgroundColor = "lightskyblue";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿@using (Html.BeginForm())
+{
+    @Styles.Render("~/Content/Styles/RESTservicePage/PageStyles/EngineeringPageStyle.css")
+    @Html.AntiForgeryToken()
+    <div class="enggPageContent">
+
+        <form>
+            <table style="border-collapse: collapse;">
+                <tr class="r_en_controlsAndContent">
+                    <td>
+                        <div class="r_en_cac_input1">
+                            <input type="checkbox" id="r_en_create_product" name="r_en_create_product">
+                            <label for="r_en_create_product">Create Product</label> <br /><br />
+
+                            <input type="checkbox" id="r_en_search_product" name="r_en_search_product">
+                            <label for="r_en_search_product">Search Product</label> <br /><br />
+
+                            <input type="checkbox" id="r_en_get_productDetail" name="r_en_get_productDetail">
+                            <label for="r_en_get_productDetail">Get Product Detail</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="r_en_cac_input2">
+                            <label for="r_en_title" class="r_en_label">Title</label>
+                            <input type="text" id="r_en_title" name="r_en_title" class="r_en_title"> <br /><br />
+
+                            <label for="r_en_name" class="r_en_label">Name</label>
+                            <input type="text" id="r_en_name" name="r_en_name" class="r_en_name"> <br /><br />
+
+                            <label for="r_en_id" class="r_en_label">ID</label>
+                            <input type="text" id="r_en_id" name="r_en_id" class="r_en_id"><br /><br />
+
+                            <button type="submit" name="submit" id="submit" class="r_en_apply_button">Apply</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <textarea cols="30" rows="15" class="r_en_comment_box"></textarea><br />
+            </div>
+        </form>        
+    </div>
+}

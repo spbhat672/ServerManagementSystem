@@ -1,0 +1,84 @@
+﻿@using (Html.BeginForm())
+{
+    @Styles.Render("~/Content/Styles/AuthenticationPage/AuthenticationPageStyle.css")
+    @Html.AntiForgeryToken()
+
+<div class="container">
+    <form>
+        <table>
+            <tr >
+                <td>
+                    <div class="loginCredential">
+                        <fieldset>
+                            <legend>Login Credentials</legend>
+
+                            <label for="a_lc_url" class="a_lc_label">URL</label>
+                            <input type="text" id="a_lc_url" name="a_lc_url" class="a_lc_url"> <br/><br />
+
+                            <label for="a_lc_port_number" class="a_lc_label">Port Number</label>
+                            <input type="text" id="a_lc_port_number" name="a_lc_port_number" class="a_lc_port_number"> <br/><br />
+
+                            <label for="a_lc_username" class="a_lc_label">User Name</label>
+                            <input type="text" id="a_lc_username" name="a_lc_username" class="a_lc_username"> <br/><br />
+
+                            <label for="a_lc_password" class="a_lc_label">Password</label>
+                            <input type="text" id="a_lc_password" name="a_lc_password" class="a_lc_password"> <br/><br />
+
+                            <label for="a_lc_context" class="a_lc_label">Context</label>
+                            <input type="text" id="a_lc_context" name="a_lc_context" class="a_lc_context">
+                        </fieldset>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="server">
+                        <div class="a_s_input_box">
+                            <fieldset>
+                                <legend>Server</legend>
+
+                                <div>
+                                    <input type="radio" id="a_s_on_premise" name="a_s_radio_options" value="OnPremise">
+                                    <label for="a_s_on_premise">On Premise</label>
+
+                                    <input type="radio" id="a_s_demo_center" name="a_s_radio_options" value="DemoCenter">
+                                    <label for="female">Demo Center</label>
+
+                                    <input type="radio" id="a_s_cloud" name="a_s_radio_options" value="Cloud">
+                                    <label for="a_s_cloud">Cloud</label>
+                                </div>
+
+                                <br />
+
+                                <div class="a_s_tenant">
+                                    <fieldset>
+                                        <legend>Cloud Tenant</legend>
+
+                                        <label for="a_s_tenant_id" class="a_s_label">Tenant ID</label>
+                                        <input type="text" id="a_s_tenant_id" name="a_s_tenant_id" style="float:right;width:250px"><br /><br />
+
+                                        <label for="a_s_region" class="a_s_label">Region</label>
+                                        <input type="text" id="a_s_region" name="a_s_region" style="float:right;width:250px"><br />
+                                    </fieldset>
+                                </div>
+
+                                <br />
+                                <input type="checkbox" id="a_s_lowercase_url" name="a_s_lowercase_url">
+                                <label for="a_s_lowercase_url">LowerCase URL</label>
+                            </fieldset>
+                        </div>
+
+                        <div class="a_s_cooments_and_submit">
+                            <textarea cols="30" rows="15" class="a_s_comment_box"></textarea><br />
+                            <button type="submit" name="submit" id="a_s_login_button" class="a_s_login_button">Login</button>
+                        </div>
+                    </div>                    
+                </td>                
+            </tr>
+        </table>
+
+        }
+     </form>
+ </div>
+}

@@ -1,0 +1,103 @@
+﻿.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.loginCredential {
+    height: 60%;
+    width: 100%;
+    top: 0;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+}
+
+.server {
+    height: 250px;
+    width: 100%;
+    top: 0;
+    margin-left:20px;
+    padding:10px;
+    background-color:lightsteelblue;
+}
+
+legend{
+    font-weight:bold;
+}
+
+.a_lc_label {
+    padding: 6px 5px 4px 0;
+    display: inline-block;
+}
+
+.a_lc_url,
+.a_lc_port_number,
+.a_lc_username,
+.a_lc_password,
+.a_lc_context {
+    margin-left: 0px;
+    float: right;
+    width: 700px;
+    height:20px;
+    margin-left: 5px;
+}
+
+.a_s_tenant{
+    height:100px;
+    width:400px;
+    top:0;
+    left:0;
+    padding:5px;
+}
+
+.a_s_label {
+    padding: 3px 2px 1px 0;
+    display: inline-block;
+}
+
+.a_s_tenant_id,
+.a_s_region {
+    float: right;
+    width: 500px;
+    height: 20px;
+    margin-right:0px;
+}
+
+.a_s_input_box {
+    margin-left: 0px;
+    float: left;
+    width: 600px;
+    height: 300px;
+    top: 0;
+}
+
+.a_s_cooments_and_submit {
+    margin-left: 0px;
+    float: left;
+    width: 300px;
+    height: 100px;
+    top: 0;
+}
+
+.a_s_comment_box{
+    width:300px;
+    height:170px;
+    margin-bottom:5px;
+    margin-top:7px;
+    resize:none;
+}
+
+.a_s_login_button {
+    width: 70px;
+    height: 35px;
+    float: right;
+    background-color: lightgreen;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.a_s_login_button:hover{
+    cursor:pointer;
+}

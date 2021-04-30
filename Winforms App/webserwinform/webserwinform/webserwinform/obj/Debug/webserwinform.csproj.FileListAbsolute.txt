@@ -1,0 +1,88 @@
+C:\Users\F13\Desktop\webserwinform\webserwinform\bin\Debug\webserwinform.exe.config
+C:\Users\F13\Desktop\webserwinform\webserwinform\bin\Debug\webserwinform.exe
+C:\Users\F13\Desktop\webserwinform\webserwinform\bin\Debug\webserwinform.pdb
+C:\Users\F13\Desktop\webserwinform\webserwinform\obj\Debug\webserwinform.csprojAssemblyReference.cache
+C:\Users\F13\Desktop\webserwinform\webserwinform\obj\Debug\webserwinform.Form1.resources
+C:\Users\F13\Desktop\webserwinform\webserwinform\obj\Debug\webserwinform.Properties.Resources.resources
+C:\Users\F13\Desktop\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.GenerateResource.cache
+C:\Users\F13\Desktop\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.CoreCompileInputs.cache
+C:\Users\F13\Desktop\webserwinform\webserwinform\obj\Debug\webserwinform.exe
+C:\Users\F13\Desktop\webserwinform\webserwinform\obj\Debug\webserwinform.pdb
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.csprojAssemblyReference.cache
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.Form1.resources
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.Properties.Resources.resources
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.GenerateResource.cache
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.CoreCompileInputs.cache
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.exe
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.pdb
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\webserwinform.exe.config
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\webserwinform.exe
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\webserwinform.pdb
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\Newtonsoft.Json.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Text.Json.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Memory.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Text.Encodings.Web.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Numerics.Vectors.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Buffers.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\Newtonsoft.Json.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.CopyComplete
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\EasyHttp.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\JsonFx.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\EasyHttp.pdb
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\JsonFx.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\Apache.NMS.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\Ionic.Zlib.Core.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\KafkaNetClient.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.ValueTuple.dll
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Buffers.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Memory.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Numerics.Vectors.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Text.Encodings.Web.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Text.Json.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Data_Dump\FY2020\Desktop13122020\webserwinform\webserwinform\bin\Debug\System.ValueTuple.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\webserwinform.exe.config
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\webserwinform.exe
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\webserwinform.pdb
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\Apache.NMS.ActiveMQ.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\Apache.NMS.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\EasyHttp.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\Ionic.Zlib.Core.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\JsonFx.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\KafkaNetClient.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\Newtonsoft.Json.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Buffers.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Memory.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Numerics.Vectors.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Text.Encodings.Web.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Text.Json.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.ValueTuple.dll
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\EasyHttp.pdb
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\JsonFx.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\Newtonsoft.Json.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Buffers.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Memory.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Numerics.Vectors.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Text.Encodings.Web.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Text.Json.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\bin\Debug\System.ValueTuple.xml
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.csprojAssemblyReference.cache
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.Form1.resources
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.Properties.Resources.resources
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.GenerateResource.cache
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.CoreCompileInputs.cache
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.csproj.CopyComplete
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.exe
+D:\3DS\Assignment\ServerManagementWebApp\Winforms App\webserwinform\webserwinform\webserwinform\obj\Debug\webserwinform.pdb

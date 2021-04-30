@@ -1,0 +1,3 @@
+To open particular tab on button click
+
+https://www.aspforums.net/Threads/176768/Set-jQuery-UI-Tabs-active-on-Button-Click-in-ASPNet-MVC/

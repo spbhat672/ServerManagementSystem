@@ -1,0 +1,28 @@
+﻿@using (Html.BeginForm())
+{
+    @Styles.Render("~/Content/Styles/RESTservicePage/PageStyles/EventPageStyles/ConnectionPageStyle.css")
+    @Html.AntiForgeryToken()
+    <div class="eventPageContent">
+
+        <form>
+             <div class="r_ev_c_content">
+                 <fieldset>
+                     <legend>Connection Parameters</legend>
+                     <label for="r_ev_c_brokerUri" class="r_ev_c_label">Broker Uri</label>
+                     <input type="text" id="r_ev_c_brokerUri" name="r_ev_c_brokerUri" class="r_ev_c_brokerUri"> <br /><br />
+
+                     <label for="r_ev_c_agentId" class="r_ev_c_label">Agent ID</label>
+                     <input type="text" id="r_ev_c_agentId" name="r_ev_c_agentId" class="r_ev_c_agentId"> <br /><br />
+
+                     <label for="r_ev_c_agentPwd" class="r_ev_c_label">Agent Password</label>
+                     <input type="text" id="r_ev_c_agentPwd" name="r_ev_c_agentPwd" class="r_ev_c_agentPwd"><br /><br />
+
+                     <label for="r_ev_c_tenantId" class="r_ev_c_label">Tenant ID</label>
+                     <input type="text" id="r_ev_c_tenantId" name="r_ev_c_tenantId" class="r_ev_c_tenantId"><br /><br />
+
+                     <button type="button" name="submit" id="submit" class="r_ev_c_connect_button">Connect</button>
+                 </fieldset>                   
+              </div>
+        </form>
+    </div>
+}

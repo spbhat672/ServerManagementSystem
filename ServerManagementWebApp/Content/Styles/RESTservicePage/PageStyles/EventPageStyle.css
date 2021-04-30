@@ -1,0 +1,45 @@
+﻿.eventContent {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    background-color: white;
+}
+
+.eventTabHeader {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    margin-left: 0;
+    margin-top: -5px;
+    height: 3.5%;
+    background-color:beige;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+}
+
+.eventTabButton {
+    background-color: lightblue;
+    color: black;
+    border-radius: 2.5px;
+    height: 20px;
+    width: 110px;
+    margin-top: 3px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+    .eventTabButton:hover{
+        cursor:pointer;
+    }
+
+    .eventTabPage {
+        background-color: white;
+        width: 100%;
+        height: 95%;
+        margin-top: 30px;
+    }

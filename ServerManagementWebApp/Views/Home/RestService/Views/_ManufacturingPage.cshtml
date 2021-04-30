@@ -1,0 +1,31 @@
+﻿@using (Html.BeginForm())
+{
+    @Styles.Render("~/Content/Styles/RESTservicePage/PageStyles/ManufacturingPageStyle.css")
+    @Html.AntiForgeryToken()
+    <div class="manufacturingPageContent">
+
+        <form>
+            <table style="border-collapse: collapse;">
+                <tr class="r_m_controlsAndContent">
+                    <td>
+                        <div class="r_m_cac_input1">
+                            <input type="checkbox" id="r_m_manufacturingAssembly" name="r_m_manufacturingAssembly">
+                            <label for="r_m_manufacturingAssembly">Get Manufacturing Assembly</label> <br /><br />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="r_m_cac_input2">
+                            <label for="r_m_id" class="r_m_label">ID</label>
+                            <input type="text" id="r_m_id" name="r_m_id" class="r_m_id"> <br /><br />
+
+                            <button type="submit" name="submit" id="submit" class="r_m_apply_button">Apply</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <textarea cols="30" rows="15" class="r_m_comment_box"></textarea><br />
+            </div>
+        </form>
+    </div>
+}

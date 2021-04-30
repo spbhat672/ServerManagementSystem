@@ -1,0 +1,40 @@
+﻿<html>
+<body>
+    @Styles.Render("~/Content/Styles/RESTservicePage/PageStyles/EventPageStyle.css")
+    @Html.AntiForgeryToken()
+
+    <div class="eventContent">
+        <div class="eventTabHeader">
+            <button id="ConnectionButton" class="eventTabButton" onclick="openEventsTab('ConnectionSettings'); setEventsMenuButtonColor('ConnectionButton');" style="background-color:lightskyblue">Connection</button>
+            <button id="ProcessingButton" class="eventTabButton" onclick="openEventsTab('ProcessingSettings'); setEventsMenuButtonColor('ProcessingButton');">Processing</button>            
+        </div>
+
+        <div id="ConnectionSettings" class="eventTabPage event_setting">
+            @Html.Partial("~/Views/Home/RestService/Views/Events/_ConnectionPage.cshtml")
+        </div>
+
+        <div id="ProcessingSettings" class="eventTabPage event_setting" style="display:none">
+            @Html.Partial("~/Views/Home/RestService/Views/Events/_ProcessingPage.cshtml")
+        </div>
+    </div>
+    <script>
+        function openEventsTab(event_setting) {
+            var i;
+            var x = document.getElementsByClassName("event_setting");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(event_setting).style.display = "block";
+        };
+
+        function setEventsMenuButtonColor(eventTabButton) {
+            var j;
+            var y = document.getElementsByClassName("eventTabButton");
+            for (j = 0; j < y.length; j++) {
+                y[j].style.backgroundColor = "lightblue";
+            }
+            document.getElementById(eventTabButton).style.backgroundColor = "lightskyblue";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿.restContent {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    background-color: white;
+}
+
+.restTabHeader {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    margin-left: 0;
+    margin-top: 0px;
+    height: 4%;
+    background-color:antiquewhite;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+}
+
+.restTabButton {
+    background-color: lightblue;
+    color: black;
+    border-radius: 4px;
+    height: 25px;
+    width: 130px;
+    margin-top: 2px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+    .restTabButton:hover {
+        cursor: pointer;
+    }
+
+.restTabPage {
+    background-color: white;
+    width: 100%;
+    height: 95%;
+    margin-top: 40px;
+}

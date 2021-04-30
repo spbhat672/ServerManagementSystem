@@ -1,0 +1,40 @@
+﻿@using (Html.BeginForm())
+{
+    @Styles.Render("~/Content/Styles/RESTservicePage/PageStyles/ExecutionPageStyle.css")
+    @Html.AntiForgeryToken()
+    <div class="executionPageContent">
+
+        <form>
+            <table style="border-collapse: collapse;">
+                <tr class="r_ex_controlsAndContent">
+                    <td>
+                        <div class="r_ex_cac_input1">
+                            <input type="checkbox" id="r_ex_create_product" name="r_ex_create_product">
+                            <label for="r_ex_create_product">Create Order</label> <br /><br />
+
+                            <input type="checkbox" id="r_ex_order_status" name="r_en_search_product">
+                            <label for="r_en_search_product">Order Status</label> <br /><br />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="r_ex_cac_input2">
+                            <label for="r_ex_aprisoServer" class="r_ex_label">Apriso Server</label>
+                            <input type="text" id="r_ex_aprisoServer" name="r_ex_aprisoServer" class="r_ex_aprisoServer"> <br /><br />
+
+                            <label for="r_ex_id1" class="r_ex_label">ID</label>
+                            <input type="text" id="r_ex_id1" name="r_ex_id1" class="r_ex_id1"> <br /><br />
+
+                            <label for="r_ex_id2" class="r_ex_label">ID</label>
+                            <input type="text" id="r_ex_id2" name="r_ex_id2" class="r_ex_id2"><br /><br />
+
+                            <button type="submit" name="submit" id="submit" class="r_ex_apply_button">Apply</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <textarea cols="30" rows="15" class="r_ex_comment_box"></textarea><br />
+            </div>
+        </form>
+    </div>
+}
